@@ -61,14 +61,14 @@ header{
 }
 
 .hello{
-  padding-top:30%;
   margin-left: 8%;
-
-
+  position:relative;
+  padding-top: 60%;
+  transform: translateY(-50%);
 }
 
 .hello-box{
-  position:relative;
+  position: relative;
   margin-left:0%;
 }
 
@@ -183,6 +183,14 @@ header{
   color:white;
 }
 
+.about-me-inverse{
+  opacity:0;
+}
+
+.about-me-inverse:hover{
+  opacity:1
+}
+
 .about-me-clickable:hover{
   background-color: #DBE380;
   position: relative;
@@ -191,5 +199,4 @@ header{
   height:400px;
   margin-left:12%;
   text-align: center;
-  content: '\f209';
 }
