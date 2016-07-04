@@ -168,14 +168,53 @@ header{
   z-index: -1;
   position: relative;
   box-sizing: border-box;
-  width:30%;
   height:400px;
   background-color: #38BEB7;
-  margin-left:12%;
+
   text-align: center;
 }
 
 .about-me > h1{
+  position: absolute;
+  /*top: 50%;*/
+  text-align: center;
+  transform: translateY(-50%);
+  font-family: 'Dosis';
+  color:white;
+  visibility: visible;
+}
+
+.about-me > i{
+  position:absolute;
+  visibility: hidden;
+}
+
+.about-me-clickable:hover > h1{
+  visibility: hidden;
+}
+
+.about-me-clickable:hover > i{
+  visibility: visible;
+}
+
+.about-me-clickable:hover{
+  background-color: #DBE380;
+  position: relative;
+  box-sizing: border-box;
+  height:400px;
+  text-align: center;
+}
+
+.resume{
+  z-index: -1;
+  background-color:#FE7352;
+  position:relative;
+  box-sizing: border-box;
+  height: 200px;
+  text-align:center;
+}
+
+.resume > h1{
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -183,20 +222,36 @@ header{
   color:white;
 }
 
-.about-me-inverse{
-  opacity:0;
-}
-
-.about-me-inverse:hover{
-  opacity:1
-}
-
-.about-me-clickable:hover{
+.resume-clickable:hover{
   background-color: #DBE380;
   position: relative;
   box-sizing: border-box;
-  width:30%;
-  height:400px;
-  margin-left:12%;
+  height:200px;
   text-align: center;
+}
+
+.contact{
+  z-index: -1;
+  background-color:#E86CA2;
+  position:relative;
+  box-sizing: border-box;
+  height: 180px;
+  text-align:center;
+}
+
+.contact > h1{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Dosis';
+  color:white;
+}
+
+.contact-clickable:hover{
+  background-color: #DBE380;
+  position: relative;
+  box-sizing: border-box;
+  height:180px;
+  text-align: center;
+
 }
