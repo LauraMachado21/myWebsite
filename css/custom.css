@@ -17,7 +17,6 @@ body,html{
 }
 
 header,section,footer{
-  display:block;
   padding:0;
   margin:0;
 }
@@ -40,31 +39,11 @@ footer {
   padding: 100px 150px;
 }
 
-header{
-  z-index:-1;
-  position:relative;
-  height:400px;
-  margin-top:0;
-  padding-top:0%;
-  margin-left: 0%;
-
-  box-sizing: border-box;
-  width: 55%;
-  float: right;
-  vertical-align: middle;
-
-  background-color:#FBA89A;
-  color:white;
-  border-radius: 0px;
-  margin-bottom: 5%;
-
-}
-
 .hello{
   margin-left: 8%;
   position:relative;
-  padding-top: 70%;
-  transform: translateY(-50%);
+  padding-top: 30%;
+  padding-bottom: 5%;
 }
 
 .hello-box{
@@ -156,61 +135,54 @@ header{
 .profilepic>img {
   border-radius: 50%;
   float:left;
-  width:30%;
-  height:auto;
-  padding-top: 5%;
-  padding-left: 5%;
-  margin-bottom: 60px;
+  width: 75%;
+  height: auto;
+  padding-top: 10%;
+  padding-left: 10%;
+  margin-bottom: 5%;
 
 }
 
 .about-me{
-  z-index: -1;
   position: relative;
   box-sizing: border-box;
-  height:400px;
-  background-color: #38BEB7;
-
+  background-color: #D05C83;
   text-align: center;
 }
 
 .about-me > h1{
-  position: absolute;
-  /*top: 50%;*/
-  text-align: center;
+  position: relative;
+  top: 50%;
   transform: translateY(-50%);
-  font-family: 'Dosis';
+  font-family: 'Raleway';
   color:white;
   visibility: visible;
 }
 
 .about-me > i{
-  position:absolute;
+  transform: translateY(+60%);
+  font-size: 1000%;
+  visibility:hidden;
+  color:white;
+}
+
+.about-me:hover{
+  background-color: #BADDD6;
+}
+
+.about-me:hover > h1 {
   visibility: hidden;
 }
 
-.about-me-clickable:hover > h1{
-  visibility: hidden;
+.about-me:hover > i{
+  visibility:visible;;
 }
 
-.about-me-clickable:hover > i{
-  visibility: visible;
-}
-
-.about-me-clickable:hover{
-  background-color: #DBE380;
-  position: relative;
-  box-sizing: border-box;
-  height:400px;
-  text-align: center;
-}
 
 .resume{
-  z-index: -1;
-  background-color:#FE7352;
+  background-color:#FFD0A6;
   position:relative;
   box-sizing: border-box;
-  height: 200px;
   text-align:center;
 }
 
@@ -218,40 +190,67 @@ header{
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  font-family: 'Dosis';
+  font-family: 'Raleway';
   color:white;
 }
 
-.resume-clickable:hover{
-  background-color: #DBE380;
-  position: relative;
-  box-sizing: border-box;
-  height:200px;
-  text-align: center;
+.resume > i{
+  transform: translateY(+60%);
+  font-size: 1000%;
+  visibility:hidden;
+  color: white;
+}
+
+.resume:hover{
+  background-color: #BADDD6;
+}
+
+.resume:hover > h1 {
+  visibility: hidden;
+}
+
+.resume:hover > i{
+  visibility:visible;
 }
 
 .contact{
-  z-index: -1;
-  background-color:#E86CA2;
+  background-color: #6C8A94;
   position:relative;
   box-sizing: border-box;
-  height: 180px;
   text-align:center;
+
 }
 
 .contact > h1{
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  font-family: 'Dosis';
+  font-family: 'Raleway';
   color:white;
 }
 
-.contact-clickable:hover{
-  background-color: #DBE380;
-  position: relative;
-  box-sizing: border-box;
-  height:180px;
-  text-align: center;
+.contact > i{
+  transform: translateY(+60%);
+  font-size: 1000%;
+  visibility:hidden;
+  color: white;
+}
 
+.contact:hover{
+  background-color: #BADDD6;
+}
+
+.contact:hover > h1 {
+  visibility: hidden;
+}
+
+.contact:hover > i{
+  visibility:visible;
+}
+
+
+
+.circle-col{
+  border-radius:50%;
+  height: 55vh;
 }
