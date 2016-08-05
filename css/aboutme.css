@@ -1,4 +1,40 @@
 .about-me-header{
-  background-color: indianred;
   height:50vh;
+  text-align: center;
+  top:50%;
+  transform:translateY(40%);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.about-me-header > h1{
+  font-size-adjust: 0.5;
+  font-size: 9vw;
+  display: inline-block;
+}
+
+.underline{
+  width: 100px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: white;
+  margin: .3em auto .4em;
+  display:block;
+  content: '';
+}
+
+.bio{
+  color: black;
+  padding: 0px;
+}
+
+.bio > img {
+  width: 35%;
+  display: inline-block;
+}
+
+.interests{
+  text-align: center;
+  color:black;
+  background-color: #f6f7f7;
+  padding:0px;
 }

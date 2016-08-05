@@ -256,5 +256,21 @@ footer {
 }
 
 .navbar{
-  
+  background-color:inherit;
+  border:0;
+  font-family:'Raleway'
+}
+.navbar-inverse .navbar-nav > li > a{
+  color:white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+  color:black;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
