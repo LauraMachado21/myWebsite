@@ -4,12 +4,22 @@
   top:50%;
   transform:translateY(40%);
   font-family: 'Josefin Sans', sans-serif;
+  overflow: auto;
 }
 
 .about-me-header > h1{
   font-size-adjust: 0.5;
   font-size: 9vw;
   display: inline-block;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p, ul, li {
+  font-family: inherit;
+  font-weight: 200;
 }
 
 .underline{
@@ -28,13 +38,22 @@
 }
 
 .bio > img {
-  width: 35%;
+  max-width: 35%;
   display: inline-block;
+  float: left;
+  padding-left: 2.5%;
+  padding-right: 2%;
+}
+
+.bio > p{
+  margin-top:10%;
 }
 
 .interests{
-  text-align: center;
   color:black;
   background-color: #f6f7f7;
-  padding:0px;
+}
+
+.projects{
+  color:black;
 }
