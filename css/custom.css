@@ -213,6 +213,7 @@ footer {
 .circle-col{
   border-radius:50%;
   height: 40vh;
+  margin-bottom: 10%;
 }
 
 .navbar{

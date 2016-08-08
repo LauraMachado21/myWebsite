@@ -1,18 +1,19 @@
 .about-me-header{
   height:50vh;
-  display: table-cell;
-  vertical-align: middle;
+  display: table;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   position: relative;
+  margin-top: 5%;
 }
 
 .about-me-header > h1{
   font-size-adjust: 0.5;
   font-size: 9vw;
-  display: inline-block;
-  padding-top: 10%;
-  vertical-align: middle;
+  display: table-cell;
+  vertical-align:middle;
+  text-align:center;
+
 }
 
 h1 {
@@ -30,7 +31,7 @@ p, ul, li {
   border-radius: 10px;
   background-color: white;
   margin: .3em auto .4em;
-  display:block;
+  display: block;
   content: '';
 }
 
