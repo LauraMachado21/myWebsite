@@ -46,9 +46,15 @@ footer {
   padding-bottom: 5%;
 }
 
+.hello > h1 {
+  padding-top: 5%;
+  margin-bottom: 0;
+}
+
 .hello-box{
   position: relative;
   margin-left:0%;
+  padding-bottom: 5%;
 }
 
 .hello-box>ul>li {
@@ -132,14 +138,20 @@ footer {
   font-weight: lighter;
 }
 
+.profilepic{
+  display: table;
+}
 .profilepic>img {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
   border-radius: 50%;
   float:left;
-  width: 75%;
+  width: 65%;
   height: auto;
-  padding-top: 10%;
-  padding-left: 10%;
   margin-bottom: 5%;
+  margin-left: 10%;
+  margin-top: 20%;
 
 }
 
@@ -147,24 +159,31 @@ footer {
   display: table;
   width: 100%;
   position: relative;
-  background-color: #D05C83;
+  background-color: #403F4C;
+}
+
+.experience{
+  display: table;
+  width: 100%;
+  position: relative;
+  background-color:#BADDD6;
 }
 .resume{
-  background-color:#FFD0A6;
+  background-color:#403F4C;
   display: table;
   width: 100%;
   position: relative;
 }
 
 .contact{
-  background-color: #6C8A94;
+  background-color: #BADDD6;
   display: table;
   width: 100%;
   position: relative;
 
 }
 
-.about-me> h1, .contact>h1, .resume>h1{
+.about-me> h1, .contact>h1, .resume>h1, .experience>h1{
   visibility: visible;
   display: table-cell;
   vertical-align:middle;
@@ -172,9 +191,10 @@ footer {
   font-family: 'Raleway';
   color:white;
   z-index: 1;
+  font-size: 250%;
 }
 
-.contact > i, .resume > i, .about-me > i{
+.contact > i, .resume > i, .about-me > i, .experience > i{
   display: table-cell;
   position: relative;
   vertical-align:middle;
@@ -185,14 +205,14 @@ footer {
 }
 
 
-.contact:hover, .resume:hover, .about-me:hover{
-  background-color: #BADDD6;
+.contact:hover, .resume:hover, .about-me:hover, .experience:hover{
+  background-color: #F6BD60;
 }
 
 
 .circle-col{
   border-radius:50%;
-  height: 55vh;
+  height: 40vh;
 }
 
 .navbar{
@@ -206,4 +226,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+nav{
+  margin-bottom: 5%;
 }

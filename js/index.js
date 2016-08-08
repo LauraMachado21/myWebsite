@@ -1,6 +1,7 @@
 var phoneShowing = false;
 var fileShowing = false;
 var peaceShowing = false;
+var rocketShowing = false;
 
 showContact = function(){
   if(phoneShowing){
@@ -41,5 +42,19 @@ showPeaceIcon = function(){
   if(!peaceShowing){
     document.getElementById('about-me').innerHTML = "<i class=\"fa fa-hand-peace-o\"><\/i>";
     peaceShowing = true;
+  }
+}
+
+showExperience= function(){
+  if(rocketShowing){
+    document.getElementById('experience').innerHTML = "<h1>Experience<\/h1>";
+    rocketShowing=false;
+  }
+}
+
+showRocketIcon = function(){
+  if(!rocketShowing){
+    document.getElementById('experience').innerHTML = "<i class=\"fa fa-rocket\"><\/i>";
+    rocketShowing = true;
   }
 }

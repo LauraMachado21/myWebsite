@@ -1,16 +1,18 @@
 .about-me-header{
   height:50vh;
+  display: table-cell;
+  vertical-align: middle;
   text-align: center;
-  top:50%;
-  transform:translateY(40%);
   font-family: 'Josefin Sans', sans-serif;
-  overflow: auto;
+  position: relative;
 }
 
 .about-me-header > h1{
   font-size-adjust: 0.5;
   font-size: 9vw;
   display: inline-block;
+  padding-top: 10%;
+  vertical-align: middle;
 }
 
 h1 {
@@ -72,7 +74,8 @@ p, ul, li {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .project-instance {
