@@ -177,7 +177,6 @@ footer {
 .contact > i, .resume > i, .about-me > i{
   display: table-cell;
   position: relative;
-  visibility: hidden;
   vertical-align:middle;
   text-align:center;
   font-size: 1000%;
@@ -190,13 +189,6 @@ footer {
   background-color: #BADDD6;
 }
 
-.contact:hover > i, .resume:hover > i, .about-me:hover > i{
-  visibility: visible;
-}
-
-.about-me:hover> h1, .contact:hover>h1, .resume:hover>h1{
-  visibility: hidden;
-}
 
 .circle-col{
   border-radius:50%;

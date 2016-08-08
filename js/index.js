@@ -1,17 +1,45 @@
+var phoneShowing = false;
+var fileShowing = false;
+var peaceShowing = false;
+
 showContact = function(){
-  document.getElementById('contact').innerHTML= "<h1>Contact Me<\/h1>";
+  if(phoneShowing){
+    document.getElementById('contact').innerHTML= "<h1>Contact Me<\/h1>";
+    phoneShowing = false;
+  }
 }
 
 showPhoneIcon = function(){
-  document.getElementById('contact').innerHTML = "<i class=\"fa fa-phone\"><\/i>";
+  if(!phoneShowing){
+    document.getElementById('contact').innerHTML = "<i class=\"fa fa-phone\"><\/i>";
+    phoneShowing = true;
+  }
 }
 
 showResume = function(){
-  document.getElementById('resume').innerHTML="<h1>Resume<\/h1>";
+  if(fileShowing){
+    document.getElementById('resume').innerHTML="<h1>Resume<\/h1>";
+    fileShowing = false;
+  }
 }
 
 showFileIcon = function(){
-  document.getElementById('resume').innerHTML = "<i class=\"fa fa-file-text-o\"><\/i>";
+  if(!fileShowing){
+      document.getElementById('resume').innerHTML = "<i class=\"fa fa-file-text-o\"><\/i>";
+      fileShowing=true;
+  }
 }
 
-$('resume').hover(showFileIcon(),showResume());
+showAboutMe = function(){
+  if(peaceShowing){
+    document.getElementById('about-me').innerHTML = "<h1>About Me<\/h1>";
+    peaceShowing=false;
+  }
+}
+
+showPeaceIcon = function(){
+  if(!peaceShowing){
+    document.getElementById('about-me').innerHTML = "<i class=\"fa fa-hand-peace-o\"><\/i>";
+    peaceShowing = true;
+  }
+}
