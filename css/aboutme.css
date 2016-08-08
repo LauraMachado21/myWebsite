@@ -55,6 +55,34 @@ p, ul, li {
   background-color: #f6f7f7;
 }
 
+.interests > i {
+  font-size: 1000%;
+  float:right;
+  display: inline-block;
+  margin-right: 10%;
+}
+
 .projects{
   color:black;
+}
+
+.project-container {
+  color:black;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.project-instance {
+  height: 30vh;
+  margin-bottom: 5%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.project-instance > img {s
+  position: relative;
+  width: 40%; /* for IE 6 */
 }

@@ -144,111 +144,59 @@ footer {
 }
 
 .about-me{
+  display: table;
+  width: 100%;
   position: relative;
-  box-sizing: border-box;
   background-color: #D05C83;
-  text-align: center;
 }
-
-.about-me > h1{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  font-family: 'Raleway';
-  color:white;
-  visibility: visible;
-}
-
-.about-me > i{
-  transform: translateY(+60%);
-  font-size: 1000%;
-  visibility:hidden;
-  color:white;
-}
-
-.about-me:hover{
-  background-color: #BADDD6;
-}
-
-.about-me:hover > h1 {
-  visibility: hidden;
-}
-
-.about-me:hover > i{
-  visibility:visible;;
-}
-
-
 .resume{
   background-color:#FFD0A6;
-  position:relative;
-  box-sizing: border-box;
-  text-align:center;
-}
-
-.resume > h1{
+  display: table;
+  width: 100%;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  font-family: 'Raleway';
-  color:white;
-}
-
-.resume > i{
-  transform: translateY(+60%);
-  font-size: 1000%;
-  visibility:hidden;
-  color: white;
-}
-
-.resume:hover{
-  background-color: #BADDD6;
-}
-
-.resume:hover > h1 {
-  visibility: hidden;
-}
-
-.resume:hover > i{
-  visibility:visible;
 }
 
 .contact{
   background-color: #6C8A94;
-  position:relative;
-  box-sizing: border-box;
-  text-align:center;
+  display: table;
+  width: 100%;
+  position: relative;
 
 }
 
-.contact > h1{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+.about-me> h1, .contact>h1, .resume>h1{
+  visibility: visible;
+  display: table-cell;
+  vertical-align:middle;
+  text-align:center;
   font-family: 'Raleway';
   color:white;
+  z-index: 1;
 }
 
-.contact > i{
-  transform: translateY(+60%);
+.contact > i, .resume > i, .about-me > i{
+  display: table-cell;
+  position: relative;
+  visibility: hidden;
+  vertical-align:middle;
+  text-align:center;
   font-size: 1000%;
-  visibility:hidden;
   color: white;
+  z-index: 2;
 }
 
-.contact:hover{
+
+.contact:hover, .resume:hover, .about-me:hover{
   background-color: #BADDD6;
 }
 
-.contact:hover > h1 {
+.contact:hover > i, .resume:hover > i, .about-me:hover > i{
+  visibility: visible;
+}
+
+.about-me:hover> h1, .contact:hover>h1, .resume:hover>h1{
   visibility: hidden;
 }
-
-.contact:hover > i{
-  visibility:visible;
-}
-
-
 
 .circle-col{
   border-radius:50%;
