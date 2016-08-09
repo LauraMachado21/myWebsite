@@ -21,7 +21,7 @@ h1 {
 }
 
 p, ul, li {
-  font-family: inherit;
+  font-family: 'Helvetica Neue';
   font-weight: 200;
 }
 
@@ -80,13 +80,55 @@ p, ul, li {
 }
 
 .project-instance {
-  height: 30vh;
+  position:relative;
+  height:auto;
   margin-bottom: 5%;
-  display: inline-block;
-  background-color: rgba(0, 0, 0, 0.75);
+  display:block;
+  background-color: black;
 }
 
-.project-instance > img {s
+.project-instance-text{
+  position: absolute;
+  z-index: 1;
+}
+
+.project-instance-text > h2, .project-instance-text > p,
+.project-instance-text > a > i, .project-instance-text > a > h4{
+  display: block;
+  width: 100%;
   position: relative;
-  width: 40%; /* for IE 6 */
+  vertical-align: top;
+  text-align: left;
+  color:white;
+  visibility: hidden;
+}
+
+i {
+  color:#FBA89A;
+  display: inline-block;
+}
+
+.project-instance-text > a > h4{
+  text-align:right;
+  margin-right: 10%;
+  color: white;
+}
+
+
+.project-instance:hover > .project-instance-text > h2, .project-instance:hover > .project-instance-text > p,
+.project-instance:hover > .project-instance-text > a > i, .project-instance:hover > .project-instance-text > a > h4{
+  visibility: visible;
+}
+
+.project-instance > img {
+  width:100%;
+  padding: inherit;
+  object-fit: fill;
+  height:auto;
+  z-index: 0;
+  float: left;
+}
+
+.project-instance:hover > img {
+  opacity: 0.25;
 }
