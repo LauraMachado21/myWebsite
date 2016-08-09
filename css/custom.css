@@ -62,7 +62,7 @@ footer {
   top:50%;
   left:0%;
   text-align: right;
-  font: 100 40px/1 'Bree Serif', Helvetica, sans-serif;
+  font: 100 40px/1 'Quicksand';
   position:relative;
   text-transform: uppercase;
   list-style-type: none;
@@ -127,16 +127,16 @@ footer {
 }
 
 .hello > h1{
-  font-family: 'Helvetica Neue';
+  font-family: 'Quicksand';
   font-size:30px;
-  font-weight: lighter;
+  font-weight:300;
 
 }
 
 .hello > p{
-  font-family: 'Helvetica Neue';
+  font-family: 'Quicksand';
   font-size: 20px;
-  font-weight: lighter;
+  font-weight:300;
 }
 
 .profilepic{
@@ -189,7 +189,8 @@ footer {
   display: table-cell;
   vertical-align:middle;
   text-align:center;
-  font-family: 'Raleway';
+  font-family: 'Quicksand';
+  font-stretch: extra-condensed;
   color:white;
   z-index: 1;
   font-size: 250%;
@@ -220,14 +221,14 @@ footer {
   .circle-col{
     width: 175px;
     height: 175px;
-    margin-left: 5px;
+    /*margin-left: 5px;*/
     font-size: 50%;
   }
 }
 
 @media(min-width:768px){
   .circle-col{
-    margin-left: 10px;
+    /*margin-left: 10px;*/
     width: 275px;
     height: 275px;
   }
@@ -241,7 +242,7 @@ footer {
 
 .navbar{
   border:0;
-  font-family:'Raleway'
+  font-family:'Quicksand'
 }
 .row-eq-height {
   display: -webkit-box;
@@ -260,4 +261,12 @@ nav{
   width:100%;
   margin:0px;
   padding:0px;
+}
+
+.circle-container {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 2%;
 }

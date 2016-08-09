@@ -17,12 +17,13 @@
 }
 
 h1 {
+  font-family: 'Josefin Sans';
   font-size: 40px;
 }
 
 p, ul, li {
-  font-family: 'Helvetica Neue';
-  font-weight: 200;
+  font-family: 'Quicksand';
+  font-stretch:extra-condensed;
 }
 
 .underline{
