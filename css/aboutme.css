@@ -103,7 +103,7 @@ p, ul, li {
   visibility: hidden;
 }
 
-i {
+a > h4 > i {
   color:#FBA89A;
   display: inline-block;
 }
