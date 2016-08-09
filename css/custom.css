@@ -41,6 +41,7 @@ footer {
 
 .hello{
   margin-left: 8%;
+  padding-right: 0;
   position:relative;
   padding-top: 30%;
   padding-bottom: 5%;
@@ -209,11 +210,33 @@ footer {
   background-color: #F6BD60;
 }
 
-
 .circle-col{
   border-radius:50%;
-  height: 40vh;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
+  text-align: center;
+}
+
+@media(max-width:768px){
+  .circle-col{
+    width: 175px;
+    height: 175px;
+    margin-left: 5px;
+    font-size: 50%;
+  }
+}
+
+@media(min-width:768px){
+  .circle-col{
+    margin-left: 10px;
+    width: 275px;
+    height: 275px;
+  }
+}
+
+@media(max-width:768px){
+  .hello{
+    margin-left:0;
+  }
 }
 
 .navbar{
@@ -231,4 +254,10 @@ footer {
 
 nav{
   margin-bottom: 5%;
+}
+
+.container{
+  width:100%;
+  margin:0px;
+  padding:0px;
 }
