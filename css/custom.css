@@ -217,7 +217,7 @@ footer {
   text-align: center;
 }
 
-@media(max-width:768px){
+@media(max-width:770px){
   .circle-col{
     width: 175px;
     height: 175px;
