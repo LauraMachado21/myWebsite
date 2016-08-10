@@ -214,7 +214,7 @@ footer {
   border-radius:50%;
   margin: auto;
   margin-bottom: 15%;
-  text-align: center;  
+  text-align: center;
 }
 
 @media(max-width:768px){
@@ -238,7 +238,17 @@ footer {
 }
 
 @media(max-width:400px){
+  .circle-col{
+    width: 155px;
+    height: 155px;
+  }
+}
 
+@media(max-width:350px){
+  .circle-col{
+    width: 130px;
+    height: 130px;
+  }
 }
 .navbar{
   border:0;
