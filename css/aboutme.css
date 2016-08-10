@@ -66,12 +66,7 @@ p, ul, li {
   margin-right: 10%;
 }
 
-.projects{
-  color:black;
-}
-
 .project-container {
-  color:black;
   display:flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -94,7 +89,7 @@ p, ul, li {
 }
 
 .project-instance-text > h2, .project-instance-text > p,
-.project-instance-text > a > i, .project-instance-text > a > h4{
+.project-instance-text> i, .project-instance-text > h4{
   display: block;
   width: 100%;
   position: relative;
@@ -104,20 +99,20 @@ p, ul, li {
   visibility: hidden;
 }
 
-a > h4 > i {
+h4 > i {
   color:#FBA89A;
   display: inline-block;
 }
 
-.project-instance-text > a > h4{
+.project-instance-text > h4{
   text-align:right;
   margin-right: 10%;
   color: white;
 }
 
 
-.project-instance:hover > .project-instance-text > h2, .project-instance:hover > .project-instance-text > p,
-.project-instance:hover > .project-instance-text > a > i, .project-instance:hover > .project-instance-text > a > h4{
+.project-instance:hover > a > .project-instance-text > h2, .project-instance:hover > a > .project-instance-text > p,
+.project-instance:hover  > a > .project-instance-text > i, .project-instance:hover > a > .project-instance-text > h4{
   visibility: visible;
 }
 
