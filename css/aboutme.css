@@ -1,13 +1,13 @@
-.about-me-header{
+.topic-header{
   height:50vh;
-  display: table;
+  display: inline-table;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   position: relative;
   margin-top: 5%;
 }
 
-.about-me-header > h1{
+.topic-header > h1{
   font-size-adjust: 0.5;
   font-size: 9vw;
   display: table-cell;
@@ -90,7 +90,7 @@ p, ul, li {
 
 .project-instance-text > h2, .project-instance-text > p,
 .project-instance-text> i, .project-instance-text > h4{
-  display: block;
+  display: table;
   width: 100%;
   position: relative;
   vertical-align: top;
@@ -106,8 +106,9 @@ h4 > i {
 
 .project-instance-text > h4{
   text-align:right;
-  margin-right: 10%;
   color: white;
+  display: table-cell;
+  vertical-align: bottom;
 }
 
 
