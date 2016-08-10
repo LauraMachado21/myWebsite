@@ -20,6 +20,12 @@
   width: auto;
   height:30vh;
 }
+
+#llc{
+  width: auto;
+  height:30vh;
+  margin: 5%;
+}
 .experience-img{
   text-align: center;
 }
