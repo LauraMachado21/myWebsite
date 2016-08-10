@@ -215,25 +215,26 @@ footer {
   margin: auto;
   margin-bottom: 15%;
   text-align: center;
+  width: 275px;
+  height: 275px;
+}
+
+@media(max-width:1025px){
+  .circle-col{
+    width: 225px;
+    height: 225px;
+    font-size: 50%;
+  }
 }
 
 @media(max-width:770px){
   .circle-col{
     width: 175px;
     height: 175px;
-    /*margin-left: 5px;*/
     font-size: 50%;
   }
   .hello{
     margin-left:0;
-  }
-}
-
-@media(min-width:768px){
-  .circle-col{
-    /*margin-left: 10px;*/
-    width: 275px;
-    height: 275px;
   }
 }
 
