@@ -1,7 +1,19 @@
-.resume-text, .resume-icon{
-  background-color:rgba(64, 63, 76, 0.1);
-  color: black;
-  font-family: 'Quicksand';
+.contact-header{
+  height: 50vh;
+  display: inline-table;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  padding-top:5%;
+}
+
+.contact-header > h1{
+  font-size-adjust: 0.5;
+  font-size: 6vw;
+  display: table-cell;
+  vertical-align:middle;
+  text-align:center;
+
 }
 
 .resume-icon > a > i{
@@ -9,6 +21,14 @@
   padding-bottom:5%;
   padding-left: 10%;
   font-size: 150%;
+}
+
+.contact-container > p > a:hover{
+  color: #F6BD60;
+}
+
+a{
+  color: #403F4C;
 }
 
 a:hover > i{
@@ -19,6 +39,33 @@ a:hover > i{
   text-align: center;
 }
 
-.resume-text > h4{
+.resume-container{
+  background-color:rgba(64, 63, 76, 0.1);
   padding-left:1em;
+  color: black;
+  font-family: 'Quicksand';
+}
+
+.contact-container{
+  text-align: center;
+  background-color:rgba(64, 63, 76, 0.1);
+  color: black;
+  font-family: 'Quicksand';
+  padding-top: 2%;
+}
+
+.contact-container > p > i {
+  padding-left: 25%;
+}
+
+.contact-container > hr {
+  border-color: black;
+  margin-right:10%;
+  margin-left:10%;
+}
+
+@media(min-width:992px){
+  .resume-container{
+    padding-top: 5%;
+  }
 }
