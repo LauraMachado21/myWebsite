@@ -1,13 +1,24 @@
-h4 > a > i {
-  color: #F6BD60;
-  display: inline-flex;
-  margin-left:5%;
-  margin-top:2%;
-  font-size: 250%;
-}
-
-.resume-text{
+.resume-text, .resume-icon{
   background-color:rgba(64, 63, 76, 0.1);
   color: black;
   font-family: 'Quicksand';
+}
+
+.resume-icon > a > i{
+  color: #F6BD60;
+  padding-bottom:5%;
+  padding-left: 10%;
+  font-size: 150%;
+}
+
+a:hover > i{
+  color:red;
+}
+
+.resume-icon{
+  text-align: center;
+}
+
+.resume-text > h4{
+  padding-left:1em;
 }
