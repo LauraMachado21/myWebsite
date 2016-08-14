@@ -21,10 +21,10 @@ getNavBar = function(){
   document.write("                  <a href=\"experience.html\">Experience<\/a>");
   document.write("                <\/li>");
   document.write("                <li>");
-  document.write("                    <a href=\"resume.html\">Resume<\/a>");
+  document.write("                    <a href=\"contact.html#resume\">Resume<\/a>");
   document.write("                <\/li>");
   document.write("                <li>");
-  document.write("                  <a href=\"contact.html\">Contact Me<\/a>");
+  document.write("                  <a href=\"contact.html#contact\">Contact Me<\/a>");
   document.write("                <\/li>");
   document.write("");
   document.write("            <\/ul>");

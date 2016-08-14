@@ -1,0 +1,13 @@
+h4 > a > i {
+  color: #F6BD60;
+  display: inline-flex;
+  margin-left:5%;
+  margin-top:2%;
+  font-size: 250%;
+}
+
+.resume-text{
+  background-color:rgba(64, 63, 76, 0.1);
+  color: black;
+  font-family: 'Quicksand';
+}
