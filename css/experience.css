@@ -4,6 +4,11 @@
   font-family:'Quicksand'
 }
 
+h1{
+  font-family: Tahoma;
+  font-weight: 200;
+}
+
 
 #web-dev-pic{
   width:50%;
