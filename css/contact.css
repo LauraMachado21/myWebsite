@@ -1,5 +1,6 @@
 .contact-header{
-  height: 50vh;
+  min-height: 50vh;
+  height:100%;
   display: inline-table;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
